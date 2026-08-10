@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.kleqing.neotaczinteract.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "neotaczinteract.refmap.json",
+  "mixins": [
+    "MixinMinecraft"
+  ],
+  "client": [
+    "MixinInteractKeyTextOverlay"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
